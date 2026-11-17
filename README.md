@@ -1,6 +1,5 @@
-# ICDE2027 — MAGNet
-
-Code and input datasets for **MAGNet: Coordinated Representation Learning for Heterogeneous Spatial Transcriptomics Integration**.
+# MAGNet
+Code and input datasets for **MAGNet: a multi-agent coordinated representation learning framework for cross-slice spatial transcriptomics integration and domain identification**.
 
 ## Contents
 
@@ -28,7 +27,7 @@ Configure `R_HOME` for your own installation if R is not on the system path. The
 
 ## Training entry point
 
-Use `MAGNet.SC_BC_pipeline` for the ICDE workload. The existing API spells its training method `trian()`:
+Use `MAGNet.SC_BC_pipeline` for the reported analyses. The existing API spells its training method `trian()`:
 
 ```python
 import MAGNet as TOOLS
